@@ -1,0 +1,17 @@
+{
+  "name": "mermaid-diagram-converter",
+  "version": "1.0.0",
+  "description": "Create Mermaid Diagrams from Markdown files",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "help": "node index.js --help"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mermaid-js/mermaid-cli": "^10.8.0",
+    "yargs": "^17.7.2"
+  }
+}
